@@ -17,16 +17,12 @@
 
 </body>
 </html>
-<?php
 
+<?php
 
 if(isset($_REQUEST['numero'])){
 
-
     $Numero =  $_POST['numero'];
-
-
-
 
     echo "Tu numero al reves es ".strrev($Numero);
 }
